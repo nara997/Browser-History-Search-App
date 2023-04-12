@@ -1,0 +1,112 @@
+.history-list-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.history-time{
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen  and (min-width: 768px){
+    .history-list-container{
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .history-time{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .time-container{
+        margin-right: 0px;
+    }
+}
+.history-item-image{
+    width: 60px;
+    height: 60px;
+}
+
+.history-destails-container{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+}
+
+
+@media screen  and (min-width: 768px){
+    .history-list-container{
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+    .history-time{
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    .history-destails-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 3px;
+    }
+}
+
+
+.history-name-image-container{
+    display: flex;
+    align-items: center;
+}
+
+.history-title{
+    font-size: 14px;
+   font-weight: bold;
+}
+
+
+@media screen and (min-width: 768px){
+    .history-title{
+        font-size: 20px;
+       font-weight: bold;
+    }
+}
+.history-domain{
+    font-size: 12px;
+    font-weight: 200;
+    color: gray;
+}
+@media screen and (min-width: 768px){
+    .history-title{
+        font-size: 18px;
+       font-weight: bold;
+    }
+    .history-domain{
+        font-size: 14px;
+        font-weight: 500;
+        color: gray;
+    }
+}
+.history-name-container{
+    margin-left: 4px;
+}
+
+@media screen and (min-width: 768px){
+    .history-name-container{
+        margin-left: 6px;
+        display: flex;
+        align-items: center;
+    }
+    .history-domain{
+       margin-left: 5px;
+    }
+}
